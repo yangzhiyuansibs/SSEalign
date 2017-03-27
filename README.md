@@ -41,7 +41,7 @@ To test the usage of SSEalign, please change directory to SSEalign storage area 
 
     perl SSEalign_two_groups.pl example_SSE_group1.fasta example_SSE_group1.fasta example_output.txt 59.18 2 
 
-    perl SSEalign_provided_list.pl example_total_SSE.fasta provided_list.txt example_output_table.txt example_output_detail.txt
+    perl SSEalign_provided_list.pl example_total_SSE.fasta example_provided_list.txt example_output_table.txt example_output_detail.txt
 
 
   4. Citation
