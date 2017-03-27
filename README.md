@@ -1,14 +1,5 @@
 
 
-####################################################################################
-#                                                                                  #
-#   Software   :  SSEalign                                                         #
-#   Release    :  1.1 (March 2017)                                                 #
-#                                                                                  #
-#   Author(s)  :  YANG Zhiyuan (yangzhiyuan@link.cuhk.edu.hk)                      #
-#   Copyright   : The Chinese University of Hong Kong                              #
-#                                                                                  #
-####################################################################################
 
 
 
@@ -16,7 +7,7 @@
                  ===========================================
 
   1. Prerequisites for SSEalgin
-  ==========================
+
 1.1 Linux platform
 1.2 Perl package
 1.3 SSpro8 software
@@ -24,7 +15,7 @@
 
 
   2. Detail of the required tools
-  ==========================
+  
 2.1 Linux platform
 SSEalign package should be compatible with any Linux operating system. If a problem occurs during the installation or if SSEalign is not runningproperly, please read the information reported below about the possible problems.
   
@@ -45,25 +36,18 @@ Note also that the 'tmp' folders in the package must not be removed or renamed a
 
 
   3. Testing SSEalign usage
-  ==========================  
-To test the usage of SSEalign, please change directory to SSEalign storage area and run SSEalign on the provided example datasets.    if it runs with no errors, means that the SSEalign have been installed successfully.:
+
+To test the usage of SSEalign, please change directory to SSEalign storage area and run SSEalign on the provided example datasets. if it runs with no errors, means that the SSEalign have been installed successfully.
 
     perl SSEalign_two_groups.pl example/example_SSE_group1.fasta example/example_SSE_group1.fasta example/example_output.txt  50 2 
+
     perl SSEalign_provided_list.pl example/example_total_SSE.fasta example/provided_list.txt example/example_output_table.txt example/example_output_detail.txt
 
 
-
   4. Citation
-  ==========================  
+
 If you have applied the SSEalign in your studies ,please cite our paper:
 Yang, Zhiyuan and Tsui, Stephen. "SSEalign: accurate function prediction of bacterial unannotated protein, based on effective training dataset" Bioinformatics (under revision). 
 
 
   
-
-
-
-
-
-
-
