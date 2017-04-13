@@ -47,9 +47,11 @@ Note also that the 'tmp' folders in the package must not be removed or renamed a
 
 To test the usage of SSEalign, please change directory to SSEalign storage area and run SSEalign on the provided example datasets. if it runs with no errors, means that the SSEalign have been installed successfully.
 
+
     perl SSEalign_two_groups.pl example_SSE_group1.fasta example_SSE_group1.fasta example_output.txt 59.18 2 
 
     perl SSEalign_provided_list.pl example_total_SSE.fasta example_provided_list.txt example_output_table.txt example_output_detail.txt
+
 
 
   4. Citation
