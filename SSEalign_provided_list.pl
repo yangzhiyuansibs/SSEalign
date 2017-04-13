@@ -82,7 +82,7 @@ while ( my $line=<LIS> ) {
           print TEMP ">$seq{$subject}\n"; 
        close TEMP;
 
-       $align_seq=`./pkg/seq-align/bin/needleman_wunsch --file tmp/$name.fasta --substitution_matrix ./pkg/seq-align/scoring/SSEalign_Matrix.txt --gapopen -2737 --gapextend -1157`;
+       $align_seq=`needleman_wunsch --file tmp/$name.fasta --substitution_matrix SSEalign_Matrix.txt --gapopen -2737 --gapextend -1157`;
    
        if ( $align_seq ne "" )  {
          $suc_count++;
