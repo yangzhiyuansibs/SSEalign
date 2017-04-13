@@ -36,7 +36,7 @@ The SSpro8 software is a tool for prediction of protein secondary structure and 
 
 2.4 Dynamic programming algorithm package
 
-The package of Dynamic programming algorithm package is recommended to download in https://github.com/noporpoise/seq-align. Please make sure to configure this package and add the path into the .bashrc before using SSEalign. The EMBOSS-strether package is also acceptable for dynamic programming algorithm but the file size is a bit larger. 
+The package of Dynamic programming algorithm package is recommended to download in https://github.com/noporpoise/seq-align. Please make sure to configure this package and add the path into the .bashrc before using SSEalign. The EMBOSS package is also acceptable for dynamic programming algorithm but the file size is a bit larger. 
 
 2.5 other suggestions
 
@@ -52,7 +52,7 @@ To test the usage of SSEalign, please change directory to SSEalign storage area 
     perl SSEalign_provided_list.pl example_total_SSE.fasta example_provided_list.txt example_output_table.txt example_output_detail.txt
 
 
-4. Citation
+4. Citations
 
 If you applied the SSEalign in your studies ,please cite our paper:
 Yang, Zhiyuan and Tsui, Stephen. "SSEalign: accurate function prediction of bacterial unannotated protein, based on effective training dataset" Bioinformatics (under revision). 
