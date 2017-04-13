@@ -9,8 +9,11 @@
   1. Prerequisites for SSEalgin
 
 1.1 Linux platform
+
 1.2 Perl package
+
 1.3 SSpro8 software
+
 1.4 EMBOSS toolkits
 
 
