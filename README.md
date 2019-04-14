@@ -55,7 +55,7 @@ To test the usage of SSEalign, please change directory to SSEalign storage area 
 4. Citations
 
 If you applied the SSEalign in your studies ,please cite our paper:
-Yang, Zhiyuan and Tsui, Stephen. "SSEalign: accurate function prediction of bacterial unannotated protein, based on effective training dataset" Bioinformatics (under revision). 
+Zhiyuan Yang, Stephen Kwok-Wing Tsui. Functional Annotation of Proteins Encoded by the Minimal Bacterial Genome Based on Secondary Structure Element Alignment [J]. Journal of Proteome Research, 2018, 17(7):2511-2520.
 
 
   
