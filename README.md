@@ -32,7 +32,7 @@ symlink to your perl installation in /usr/bin.
   
 2.3 SSpro8 software
 
-The SSpro8 software is a tool for prediction of protein secondary structure and can be download in http://scratch.proteomics.ics.uci.edu/. Other tools for protein secondary structure, such JPRED4 and PsiPred is also acceptable, but their results will not be not as good as SSpro8.
+The SSpro8 software is a tool for prediction of protein secondary structure and can be download in http://scratch.proteomics.ics.uci.edu/. Other tools for protein secondary structure, such JPRED4 and PsiPred, are also acceptable, but their results will not be not as good as SSpro8.
 
 2.4 Dynamic programming algorithm package
 
