@@ -21,22 +21,23 @@
   
 2.1 Linux platform
 
-SSEalign package should be compatible with any Linux operating system. If a problem occurs during the installation or if SSEalign is not runningproperly, please read the information reported below about the possible problems.
+SSEalign package should be compatible with any Linux operating system. If a problem occurs during the installation or if SSEalign is not running properly, please read the information reported below about the possible problems.
   
 2.2 Perl package
 
-The scripts in SSEalign are written in perl. These scripts assume perl is
-installed in the default location for linux operating systems: /usr/bin/perl
-If perl is not installed in this folder of your system, please create a
-symlink to your perl installation in /usr/bin.  
+The scripts in SSEalign are written in Perl. These scripts assume Perl is installed in the default location for linux operating systems: /usr/bin/perl If Perl is not installed in this folder of your system, please create a symlink to your Perl installation in /usr/bin.  
   
 2.3 SSpro8 software
 
-The SSpro8 software is a tool for prediction of protein secondary structure and can be download in http://scratch.proteomics.ics.uci.edu/. Other tools for protein secondary structure, such JPRED4 and PsiPred, are also acceptable, but their results will not be not as good as SSpro8.
+The SSpro8 software is a tool for prediction of protein secondary structure and can be download in http://scratch.proteomics.ics.uci.edu/. Other tools for protein secondary structure, such as JPRED4 and PsiPred, are also acceptable, but their results will not be not as good as SSpro8.
 
 2.4 Dynamic programming algorithm package
 
-The package of Dynamic programming algorithm package is recommended to download in https://github.com/noporpoise/seq-align. Please make sure to configure this package and add the path into the .bashrc before using SSEalign. The EMBOSS tool is also acceptable for dynamic programming algorithm but its file size is much large. 
+The package of Dynamic programming algorithm package is recommended to download in https://github.com/noporpoise/seq-align. Please make sure to configure this package and add the path into the file .bashrc before using SSEalign. For example, if the path of folder seq-align is '/home/yang/seq-align', then you need to add a script into the file .bashrc
+
+export PATH=$PATH:/home/yang/seq-align/bin
+
+The EMBOSS tool is also acceptable for dynamic programming algorithm but the file size is much large. 
 
 2.5 other suggestions
 
@@ -44,7 +45,7 @@ Note also that the 'tmp' folders in the package must not be removed or renamed a
 
 3. Testing SSEalign usage
 
-To test the usage of SSEalign, please change directory to SSEalign storage area and run SSEalign on the provided example datasets. if it runs with no errors, means that the SSEalign have been installed successfully.
+To test the usage of SSEalign, please change directory to SSEalign storage area and run SSEalign on the provided example datasets. if it runs with no errors, means that the SSEalign has been installed successfully.
 
 
     perl SSEalign_two_groups.pl example_SSE_group1.fasta example_SSE_group2.fasta example_output.txt 
@@ -54,7 +55,7 @@ To test the usage of SSEalign, please change directory to SSEalign storage area 
 
 4. Citations
 
-If you applied the SSEalign in your studies ,please cite our paper:
+If you applied the SSEalign in your studies, please cite our paper:
 
 Zhiyuan Yang, Stephen Kwok-Wing Tsui. Functional Annotation of Proteins Encoded by the Minimal Bacterial Genome Based on Secondary Structure Element Alignment [J]. Journal of Proteome Research, 2018, 17(7):2511-2520.
 
