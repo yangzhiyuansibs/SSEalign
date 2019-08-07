@@ -33,7 +33,7 @@ The SSpro8 software is a tool for prediction of protein secondary structure and 
 
 2.4 Dynamic programming algorithm package
 
-The package of Dynamic programming algorithm package is recommended to download in https://github.com/noporpoise/seq-align. Please make sure to configure this package and add the path into the file .bashrc before using SSEalign. For example, if the path of folder seq-align is '/home/yang/seq-align', then you need to add a script into the file .bashrc
+The package of Dynamic programming algorithm package is recommended to download in https://github.com/noporpoise/seq-align. Please make sure to configure this package and add the path into the file .bashrc before using SSEalign. For example, if the path of folder seq-align is '/home/yang/seq-align', then you need to add a script into the file '.bashrc'. Please don't forget to re-execute the .bashrc file before using. 
 
 export PATH=$PATH:/home/yang/seq-align/bin
 
